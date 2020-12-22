@@ -1,13 +1,67 @@
-*{
+#nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
+    text-align: center;
 }
 
-.header_text {
-    color: white;
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #FFF;
     font-family: 'Ubuntu', sans-serif;
-    height: 100%;
-    vertical-align: middle;
+    text-align: center;
+    padding: 16px;
+}
+
+#nav li a:hover {
+    background-color: black;
+}
+
+h3 {
+    font-family: 'courier';
+    text-align: center;
+}
+
+img {
+    height: auto;
+    float: left;
+    width: 60%;
+    height: 60%;
+    object-position: left center;
+}
+
+tr,
+td {
+    padding: 15px;
+    font-family: 'verdana';
+}
+
+#orange {
+    background-color: #F88E37;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: larger;
+}
+
+#orange_bottom {
+    background-color: #F88E37;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    color: #FFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: larger;
 }
