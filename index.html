@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
-        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
-        <link rel = "stylesheet" type = "text/css" href = "css/container.css">
-        <title>Sample Project</title>
-    </head>
-    <body>
-        <!-- HEADER -->
-        <header>
-            <nav>
-                <ul>
-                    <li>The Book Series</li>
-                    <li>Testimonials</li>
-                    <li>The Author</li>
-                    <li>Free Resources</li>
-                </ul>
-            </nav>
-        </header>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/container.css">
+    <title>Sample Project</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div id="nav">
+            <ul>
+                <li><a href="#bookseries">The Book Series</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#author">The Author</a></li>
+                <li><a href="#references">Free Resources</a></li>
+            </ul>
+        </div>
+    </header>
 
 
-        <!-- MAIN BODY -->
-        <main>
-            <h2>You dont know Javascript</h2>
-            <section>
-                BOOK IMAGE
-            </section>
-            <section>
-                SUMMARY
-            </section>
-        </main>
+    <!-- MAIN BODY -->
+    <main>
+        <h3>You dont know Javascript</h3>
+        <br />
+        <section>
+            <div id="img_contain">
+                <img src="image.jpg" alt="Cover image for book">
+            </div>
+        </section>
+        <aside>
+            <table style="width: 100%">
+                <tr>
+                    <td>Don't just drift through Javascript.</td>
+                </tr>
+                <tr>
+                    <td> Understand how Javascript works</td>
+                </tr>
+                <tr>
+                    <td> Start your journey through the bumpy side of Javascript</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="orange">Order your copy now</div>
+                    </td>
+                </tr>
+            </table>
+        </aside>
+    </main>
 
 
-        <!-- FOOTER -->
-        <footer>
-            The first ebook in the book series is absolutely free.
-        </footer>
-        
-    </body>
+    <!-- FOOTER -->
+    <footer>
+        <table style="width: 40%; padding: 20px;">
+            <tr>
+                <td>The first ebook in the book series is absolutely free.</td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="orange_bottom">Order your copy now</div>
+                </td>
+            </tr>
+        </table>
+
+    </footer>
+
+</body>
 
 </html>
